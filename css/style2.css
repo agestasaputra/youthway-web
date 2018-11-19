@@ -1,0 +1,476 @@
+
+/*@font-face
+{
+	font-family: "roboto";
+	src: url('fonts/roboto/Roboto-BoldItalic.ttf');
+}*/
+
+.bg-dark {
+  background-color: #f8f9fa !important;
+}
+
+a.bg-dark a:hover 
+{
+	background-color: red !important;
+}
+
+.navbar-light .navbar-brand
+{
+	color: rgba(0, 0, 0, 0.9) !important;
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+.navbar-light img
+{
+	width: 30px;
+	margin-right: .5%;
+}
+		
+	.navbar-light .nav-item .nav-link
+	{
+		/*color: rgba(0, 0, 0, 0.9) !important;*/
+		font-family: Roboto;
+		/*padding-right: 100%;*/
+	}
+	
+	.navbar-dark ul .navbar-nav{
+		/*width: 100%;*/
+	}
+
+	.navbar-dark .nav-item .nav-link
+	{
+		/*font-family: Roboto;*/
+		/*margin-right: 5%;*/
+
+		/*font-style: italic;*/
+		/*font-weight: bold;*/
+		/*font-size: 150%;*/
+		/*margin-right: 2%;*/
+	}
+
+		
+
+.collapse .navbar-collapse a
+{
+	font-family: Times New Roman;
+	font-style: Black;
+}
+
+
+.carousel-inner {
+  height: 100vh;
+}
+
+	.gambarDua
+	{
+		background-image: url('../img/banner-index3.jpg');
+		height: 100vh;
+		background-size: cover;
+		background-position: 0 60px;
+	}
+
+
+/*----------------------- QUOTES SECTION ----------------------*/
+.quotes
+{
+	padding: 10%;
+}
+
+.quotes img
+{
+	width: 15%;
+	margin-bottom: 20px;
+}
+
+.quotes h1
+{
+	font-family: Tw Cen MT;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.quotes h5
+{
+	font-family: roboto;
+	font-style: italic;
+}
+
+
+
+
+/*----------------------------- SECTION PRODUCTS --------------------------*/
+
+section.products .row
+{
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+section.products h1
+{
+	margin: 4% 0;
+	font-family: Tw Cen MT;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+section.products .col-6
+{
+	margin: 0;
+	padding: 0;
+}
+
+section.products img
+{
+	border: 1px solid #cdc;
+	width: 100%;
+	transition: 1s;
+}
+
+	/*
+	section.products #satu
+	{
+		width: 500px;
+		height: 500px;
+		margin: 0;
+		padding: 0;
+		border: 1px solid #cdc;
+		background-image: url('../img/TDN-5.jpg');
+		background-size: 65%;
+		background-repeat: no-repeat;
+		background-position: 50% 20px;
+		
+	}
+	*/
+	
+	/*-------------------------- SATU -------------------------*/
+	
+	#satu
+	{
+		cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+	}
+
+	#satu:hover img
+	{
+		filter: brightness(60%);
+	}
+	
+	#satu :not(img)
+	{
+		margin: 0;
+		position: absolute;
+		top: 45%;
+		/*z-index: 1;*/
+		color: #fff;
+		text-align: center;
+		width: 100%;
+		opacity: 0;
+		transition: 1s;
+	}
+		
+	#satu:hover :not(img)
+	{
+		transition: .5s;
+		opacity: 1;
+	}
+
+	/*-------------------------- DUA ---------------------------*/
+	
+	#dua
+	{
+		cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+	}
+
+	#dua:hover img
+	{
+		filter: brightness(60%);
+	}
+	
+	#dua :not(img)
+	{
+		margin: 0;
+		position: absolute;
+		top: 45%;
+		/*z-index: 1;*/
+		color: #fff;
+		text-align: center;
+		width: 100%;
+		opacity: 0;
+		transition: 1s;
+	}
+
+	#dua:hover :not(img)
+	{
+		transition: .5s;
+		opacity: 1;
+	}
+
+	/*-------------------------- TIGA -------------------------*/
+	
+	#tiga
+	{
+		cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+	}
+
+	#tiga:hover img
+	{
+		filter: brightness(60%);
+	}
+	
+	#tiga :not(img)
+	{
+		margin: 0;
+		position: absolute;
+		top: 45%;
+		/*z-index: 1;*/
+		color: #fff;
+		text-align: center;
+		width: 100%;
+		opacity: 0;
+		transition: 1s;
+	}
+
+	#tiga:hover :not(img)
+	{
+		transition: .5s;
+		opacity: 1;
+	}
+	
+	/*-------------------------- EMPAT ------------------------*/
+	
+	#empat
+	{
+		cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+	}
+
+	#empat:hover img
+	{
+		filter: brightness(60%);
+	}
+	
+	#empat :not(img)
+	{
+		margin: 0;
+		position: absolute;
+		top: 45%;
+		/*z-index: 1;*/
+		color: #fff;
+		text-align: center;
+		width: 100%;
+		opacity: 0;
+		transition: 1s;
+	}
+
+	#empat:hover :not(img)
+	{
+		transition: .5s;
+		opacity: 1;
+	}
+
+	/*
+	section.products #dua
+	{
+		width: 500px;
+		height: 50vh;
+		margin: 0;
+		padding: 0;
+		border: 1px solid #cdc;
+		background-image: url('../img/TDN-8.jpg');
+		background-size: 65%;
+		background-repeat: no-repeat;
+		background-position: 50% 20px;
+	}
+
+	section.products .col-6#tiga
+	{
+		margin: 0;
+		padding: 0;
+		border: 1px solid #cdc;
+		background-image: url('../img/TDN-7.jpg');
+		background-size: 65%;
+		background-repeat: no-repeat;
+		background-position: 50% 20px;
+	}
+
+	section.products .col-6#empat
+	{
+		margin: 0;
+		padding: 0;
+		border: 1px solid #cdc;
+		background-image: url('../img/TDN-2.jpg');
+		background-size: 65%;
+		background-repeat: no-repeat;
+		background-position: 50% 20px;
+	}*/
+	
+
+section.products .btn
+{
+	margin: 50px 0;
+	font-family: Tw Cen MT;
+	background-color: #000;
+}
+
+
+/*------------------------ AKHIR SECTION PRODUCTS ----------------------------*/
+
+/*----------------------------  SECTION FOOTER -------------------------------*/
+
+section.footer #top-footer
+{
+	font-family: Tw Cen MT;
+	background-color: #0F0F0F;
+	color: #eaeaea;
+	margin: 0;
+	padding-bottom: 0%;
+}
+
+section.footer #top-footer .col-sm-3
+{
+	padding-top: 4%;
+	padding-left: 7%;
+	padding-right: 0%;
+	/*border: 1px solid #fff;*/
+}
+
+section.footer #top-footer .col-sm-3 .nav-link
+{
+	/*padding: 10% 15%;*/
+	padding-left: 20%;
+	padding-bottom: 10%;
+	color: #eaeaea;
+	font-size: 120%;
+}
+	
+	/*-------------------------------- .COL-6 [BAGIAN KANAN] ------------------------------ */
+
+	
+	section.footer #top-footer .col-sm-6
+	{
+		/*padding: 2% 7%;*/
+		padding-top: 4%;
+		padding-left: 7%;
+		/*border: 1px solid #fff;*/
+	}
+		
+		/*-------------------------------------- ROW BAGIAN KANAN ATAS -----------------------------------------*/
+		
+		section.footer #top-footer .col-sm-6 .col-7
+		{
+			padding: 0;
+			margin: 0;
+		}
+
+		section.footer #top-footer .col-sm-6 .col-7 .nav-link
+		{
+			color: #eaeaea;
+			font-size: 120%;
+		}
+		
+		section.footer #top-footer .col-sm-6 .col-5
+		{
+			margin: 0;
+			padding: 0;
+		}
+
+		section.footer #top-footer .col-sm-6 .col-5 img
+		{
+			padding: 2% 0;
+			margin-right: 3%;
+			width: 40px;
+		}
+
+		/*-------------------------------------- ROW BAGIAN KANAN TENGAH -----------------------------------------*/
+
+		section.footer #top-footer .col-sm-6 p
+		{
+			padding-left: 2%; 
+			margin-top: 7%;
+			margin-bottom: 0;
+			/*color: red;*/
+		}
+
+		section.footer #top-footer .col-sm-6 #email input
+		{
+			/*border-bottom: 1px solid red;*/
+			border: 0;
+			border-radius: 0;
+		}
+		
+		section.footer #top-footer .col-sm-6 #email .form-control
+		{
+			/*background-color: #343a40;	*/
+			background-color: transparent;
+			border-bottom: 2px solid #343a40;
+			/*border: 0px;*/
+		}
+
+		section.footer #top-footer .col-sm-6 #button
+		{
+			padding: 0;
+			margin-bottom: 1%;
+		}
+
+		section.footer #top-footer .col-sm-6 #button .btn
+		{
+			border-radius: 0;
+			padding: 3.5% 17%;
+		}
+
+/* ----------------------------------------- AKHIR TOP FOOTER --------------------------------------------------------------*/
+
+section.footer #middle-footer
+{
+	margin: 0;
+	background-color: #0F0F0F;
+}
+
+section.footer #middle-footer .col-sm-12
+{
+	margin: 0;
+	padding: 0;
+}
+
+section.footer #middle-footer hr
+{
+	width: 80%;
+	background-color: #eaeaea;
+}
+
+/* --------------------------------------------------- BOTTOM FOOTER ---------------------------------------------------------*/
+section.footer #bottom-footer
+{
+	background-color: #0F0F0F;
+	margin: 0;
+
+	padding-bottom: 1%;
+}
+
+section.footer #bottom-footer /*.col-sm-6*/ #kiri
+{
+	/*border-top: 1px solid #eaeaea;*/
+	margin: 0;
+	padding-top: 1%;
+	padding-left: 11.6%;
+	color: #eaeaea;
+	font-family: Tw Cen MT;
+	font-size: 100%;
+
+}
+
+section.footer #bottom-footer /*.col-sm-6*/ #kanan
+{
+	/*border-top: 1px solid #eaeaea;*/
+	margin: 0;
+	padding-top: 1%;
+	padding-left: 18%;
+	color: #eaeaea;
+	font-family: Tw Cen MT;
+	font-size: 100%;
+
+}

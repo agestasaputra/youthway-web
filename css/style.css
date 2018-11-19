@@ -1,0 +1,1003 @@
+
+/*@font-face
+{
+	font-family: "roboto";
+	src: url('fonts/roboto/Roboto-BoldItalic.ttf');
+}*/
+
+
+
+/*------------------------- SECTION NAVBAR --------------------*/
+
+.bg-dark {
+  /*background-color: rgba(0, 0, 0, 1) !important;*/
+  background-color: #101010 !important;
+}
+
+a.bg-dark a:hover 
+{
+	background-color: red !important;
+}
+
+.navbar-dark .navbar-brand
+{
+	/*color: rgba(0, 0, 0, 0.9) !important;*/
+	color: #f8f9fa !important;
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+.navbar-dark img
+{
+	width: 30px;
+	margin-right: .5%;
+}
+		
+	.navbar-dark .nav-item .nav-link
+	{
+		/*color: rgba(0, 0, 0, 0.9) !important;*/
+		font-family: Roboto;
+		font-weight: bold;
+		/*padding-right: 100%;*/
+	}
+	
+	.navbar-dark ul .navbar-nav{
+		/*width: 100%;*/
+	}
+
+	.navbar-dark .nav-item .nav-link
+	{
+		/*font-family: Roboto;*/
+		/*margin-right: 5%;*/
+
+		/*font-style: italic;*/
+		/*font-weight: bold;*/
+		/*font-size: 150%;*/
+		/*margin-right: 2%;*/
+	}
+
+/*-------------------- AKHIR SECTION NAVBAR -------------------*/
+
+
+
+
+
+
+
+
+/*----------------------- SECTION CAROUSEL ----------------------*/
+
+
+	/*-------------------------CAROUSEL INDEX--------------------*/
+	
+	.carousel-inner#carousel-index{
+	  height: 100vh;
+	}
+		
+	.img-carousel-index
+	{
+		background-image: url('../img/banner-index2(1).jpg');
+		height: 100vh;
+		background-size: cover;
+		background-position: 0 -10px;
+	}
+	
+	.img-carousel-index-2
+	{
+		background-image: url('../img/banner-index2(4).jpg');
+		height: 100vh;
+		background-size: cover;
+		background-position: 0 -10px;
+	}
+
+	/*
+	.carousel #index-caption-position 
+	{
+		/*right: 15%;
+		/*bottom: 20px;
+		top: 75%;
+		left: 5%;
+		position: absolute;
+		text-align: center;
+		/*z-index: 10;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		color: #fff;
+	}
+
+	
+	.carousel #index-caption-position h1
+	{
+		font-family: Roboto;
+		font-weight: bolder;
+		font-style: italic;
+		font-size: 45px;
+		color: #111;
+		/*text-align: center;
+	}
+	
+	.d-none 
+	{
+		display: none !important;
+	}
+
+	.d-md-block 
+	{
+		display: block !important;
+	}
+	*/
+
+	/*-------------------------CAROUSEL PRODUCTS------------------*/
+	
+	.carousel-inner#carousel-products {
+	  height: 100vh;
+	}
+
+	.img-carousel-products
+	{
+		background-image: url('../img/banner-index6(3).jpg');
+		height: 100vh;
+		background-size: cover;
+		background-position: 0 60px;
+	}
+
+	/*-------------------------CAROUSEL SHIPPING------------------*/
+	
+	.carousel-inner#carousel-shipping {
+	  height: 100vh;
+	}
+
+	.img-carousel-shipping
+	{
+		background-image: url('../img/banner-index7(4).jpg');
+		height: 100vh;
+		background-size: cover;
+		background-position: 0 -50px;
+		/*filter: blur(2px);*/
+	}
+	
+	/*------------------------CAROUSEL CONTACTS-----------------*/
+	
+	.carousel-inner#carousel-contacts {
+	  height: 100vh;
+	}
+
+	.img-carousel-contacts
+	{
+		background-image: url('../img/banner-index5.jpg');
+		height: 100vh;
+		background-size: cover;
+		background-position: 0 60px;
+	}
+
+	/*----------------------CAROUSEL ABOUT----------------------*/
+	
+	.carousel-inner#carousel-about {
+	  height: 100vh;
+	}
+
+	.img-carousel-about
+	{
+		background-image: url('../img/banner-index6(2).jpg');
+		height: 100vh;
+		background-size: cover;
+		background-position: 0 -120px;
+	}
+
+/*-------------------- AKHIR SECTION CAROUSEL --------------------*/
+
+
+
+
+
+/*---------------------- SECTION SHIPPING ----------------------*/
+
+section.shipping #title-shipping
+{
+	margin-top: 7%;
+}
+
+section.shipping hr
+{
+	margin-top: 5%;
+	border: 1px solid #000;
+	border-radius: 7px 7px 7px 7px;
+}
+
+section.shipping h1
+{
+	font-family: Tw Cen MT;
+	font-weight: bold;
+	text-align: center;
+}
+
+	section.shipping #text-shipping
+	{
+		margin-top: 2%;
+		margin-bottom: 25%;
+	}
+
+	section.shipping h2
+	{
+		font-family: Tw Cen MT;
+		font-weight: bold;
+	}
+
+	section.shipping p
+	{
+		font-family: Tw Cen MT;
+	}	
+
+/*------------------ AKHIR SECTION SHIPPING --------------------*/
+
+
+
+
+
+
+
+
+/*---------------------- SECTION SHIPPING ----------------------*/
+
+section.about #title-about
+{
+	margin-top: 7%;
+}
+
+section.about hr
+{
+	margin-top: 5%;
+	border: 1px solid #000;
+	border-radius: 7px 7px 7px 7px;
+}
+
+section.about hr#hr-icon
+{
+	margin-top: 0;
+	margin-left: 29.5%;
+	width: 40%;
+	border: 1px solid #000;
+	border-radius: 7px 7px 7px 7px;
+}
+
+section.about h1
+{
+	font-family: Tw Cen MT;
+	font-weight: bold;
+	text-align: center;
+}
+
+section.about h1#h1-icon
+{
+	/*margin-bottom: 5%;		*/
+	font-family: Roboto;
+	font-weight: bolder;
+	font-style: italic;
+	text-align: center;
+	font-size: 350%;
+	color: #000;
+}
+
+section.about img
+{
+	margin-left: 40%;
+	margin-bottom: 2%;
+	width: 20%;
+}
+
+	section.about #text-about
+	{
+		margin-top: 4%;
+		margin-bottom: 25%;
+	}
+
+	section.about h2
+	{
+		font-family: Tw Cen MT;
+		font-weight: bold;
+	}
+
+	section.about p
+	{
+		text-align: center;
+		font-family: Tw Cen MT;
+	}	
+
+/*------------------ AKHIR SECTION SHIPPING --------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------- SECTION CONTACTS ----------------------*/
+
+section.contacts #container-contacts 
+{
+	width: 80%;
+	margin-bottom: 6%;
+}
+
+	/*TITLE CONTACTS*/
+	section.contacts #title-contacts
+	{
+		margin-top: 7%;
+	}
+
+	section.contacts #title-contacts hr
+	{
+		margin-top: 5%;
+		border: 1px solid #0F0F0F;
+		border-radius: 7px 7px 7px 7px;
+	}
+
+	section.contacts h1
+	{
+		font-family: Tw Cen MT;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	/*BODY CONTACTS*/
+
+	/*--------------------- BAGIAN KIRI -----------------------*/
+	section.contacts #contacts-kiri
+	{
+		/*background: blue;*/
+		margin-top: 2%;
+	}
+
+	/*----------------------- BAGIAN KANAN ---------------------*/
+	section.contacts #contacts-kanan 
+	{
+		/*background-color: red;*/
+		margin-top: 2%;
+	}
+
+	section.contacts #contacts-kanan h2
+	{
+		font-family: Tw Cen MT;
+		font-weight: bold;
+	}
+
+	section.contacts #contacts-kanan .col
+	{
+		margin-left: 20%;
+	}
+
+	section.contacts #contacts-kanan img
+	{
+		width: 10%;
+		margin-right: 5%;
+	}
+
+/*
+BUTTON SUBMIT POSITION
+section.contacts button
+{
+	left:42.5%;
+}
+*/
+/*------------------ AKHIR SECTION CONTACTS --------------------*/
+
+
+
+
+
+
+
+/*----------------------- SECTION QUOTES ----------------------*/
+.quotes
+{
+	padding: 10%;
+}
+
+.quotes img
+{
+	width: 15%;
+	margin-bottom: 20px;
+}
+
+.quotes h1
+{
+	font-family: Tw Cen MT;
+	margin-bottom: 20px;
+}
+
+.quotes h5
+{
+	font-family: roboto;
+	font-style: italic;
+}
+/*-------------------- AKHIR SECTION QUOTES -------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------- SECTION PRODUCTS --------------------------*/
+	
+	/*--------------------INDEX-PRODCUTS-----------------------*/
+	section.index-products .row
+	{
+		padding: 0;
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+	section.index-products h1
+	{
+		margin: 4% 0;
+		font-family: Tw Cen MT;
+		font-weight: bold;
+		text-align: center;
+	}
+
+
+	section.index-products .col-6
+	{
+		padding: 0;
+		margin: 0;
+		
+	}
+
+	section.index-products img
+	{
+		border: 1px solid #cdc;
+		width: 100%;
+		transition: 1s;
+	}
+
+	/*---------------- PRODUCTS-PRODUCTS ---------------------*/
+	section.products-products .row
+	{
+		padding: 0;
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+	section.products-products h1
+	{
+		margin: 4% 0;
+		font-family: Tw Cen MT;
+		font-weight: bold;
+		text-align: center;
+	}
+
+
+	section.products-products .col-6
+	{
+		padding: 0;
+		margin: 0;
+		
+	}
+
+	section.products-products img
+	{
+		border: 1px solid #cdc;
+		width: 100%;
+		transition: 1s;
+	}
+
+
+	/*-------------------------- SATU -------------------------*/
+		/*-------------------- SATU - INDEX -------------------*/
+		#img-index-satu
+		{
+			cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+		}
+
+		#img-index-satu:hover img
+		{	
+			filter: brightness(60%);
+		}
+
+		#img-index-satu :not(img)
+		{
+			margin: 0;
+			position: absolute;
+			top: 45%;
+			/*z-index: 1;*/
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			opacity: 0;
+			transition: 1s;
+		}
+			
+		#img-index-satu:hover :not(img)
+		{
+			transition: .5s;
+			opacity: 1;
+		}
+
+		/*----------------- AKHIR SATU - INDEX ----------------*/
+		/*------------------ SATU - PRODUCTS ------------------*/
+		#img-products-satu
+		{
+			cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+		}
+
+		#img-products-satu:hover img
+		{
+			filter: brightness(60%);
+		}
+		
+		#img-products-satu :not(img)
+		{
+			margin: 0;
+			position: absolute;
+			top: 45%;
+			/*z-index: 1;*/
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			opacity: 0;
+			transition: 1s;
+		}
+			
+		#img-products-satu:hover :not(img)
+		{
+			transition: .5s;
+			opacity: 1;
+		}
+	
+		/*--------------- AKHIR SATU - PRODUCTS ---------------*/
+	/*----------------------- AKHIR SATU ----------------------*/
+
+
+
+	/*-------------------------- DUA --------------------------*/
+		/*-------------------- DUA - INDEX --------------------*/
+		#img-index-dua
+		{
+			cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+		}
+		
+		#img-index-dua:hover img
+		{	
+			filter: brightness(60%);
+		}
+
+		#img-index-dua :not(img)
+		{
+			margin: 0;
+			position: absolute;
+			top: 45%;
+			/*z-index: 1;*/
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			opacity: 0;
+			transition: 1s;
+		}
+
+		#img-index-dua:hover :not(img)
+		{
+			transition: .5s;
+			opacity: 1;
+		}
+
+		/*------------------ AKHIR DUA - INDEX ----------------*/
+		/*-------------------- DUA - PRODUCTS -----------------*/
+	
+		#img-products-dua
+		{
+			cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+		}
+
+		#img-products-dua:hover img
+		{
+			filter: brightness(60%);
+		}
+		
+		#img-products-dua :not(img)
+		{
+			margin: 0;
+			position: absolute;
+			top: 45%;
+			/*z-index: 1;*/
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			opacity: 0;
+			transition: 1s;
+		}
+
+		#img-products-dua:hover :not(img)
+		{
+			transition: .5s;
+			opacity: 1;
+		}
+
+		/*----------------- AKHIR DUA - PRODUCTS --------------*/
+	/*---------------------- AKHIR DUA ------------------------*/
+	
+	
+
+	/*------------------------- TIGA --------------------------*/
+		/*------------------ TIGA - INDEX ------------------*/
+		
+		#img-index-tiga
+		{
+			cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+		}
+		
+		#img-index-tiga:hover img
+		{	
+			filter: brightness(60%);
+		}
+
+		#img-index-tiga :not(img)
+		{
+			margin: 0;
+			position: absolute;
+			top: 45%;
+			/*z-index: 1;*/
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			opacity: 0;
+			transition: 1s;
+		}
+
+		#img-index-tiga:hover :not(img)
+		{
+			transition: .5s;
+			opacity: 1;
+		}
+
+		/*--------------- AKHIR TIGA - INDEX ------------------*/
+		/*------------------ TIGA - PRODUCTS ------------------*/
+	
+		#img-products-tiga
+		{
+			cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+		}
+
+		#img-products-tiga:hover img
+		{
+			filter: brightness(60%);
+		}
+		
+		#img-products-tiga :not(img)
+		{
+			margin: 0;
+			position: absolute;
+			top: 45%;
+			/*z-index: 1;*/
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			opacity: 0;
+			transition: 1s;
+		}
+
+		#img-products-tiga:hover :not(img)
+		{
+			transition: .5s;
+			opacity: 1;
+		}
+
+
+		/*------------------ TIGA - PRODUCTS ------------------*/
+	/*----------------------- AKHIR TIGA ----------------------*/
+
+
+
+	/*-------------------------- EMPAT ------------------------*/
+		/*------------------ EMPAT - INDEX --------------------*/
+
+		#img-index-empat
+		{
+			cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+		}
+		
+		#img-index-empat:hover img
+		{	
+			filter: brightness(60%);
+		}
+
+		#img-index-empat :not(img)
+		{
+			margin: 0;
+			position: absolute;
+			top: 45%;
+			/*z-index: 1;*/
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			opacity: 0;
+			transition: 1s;
+		}
+
+		#img-index-empat:hover :not(img)
+		{
+			transition: .5s;
+			opacity: 1;
+		}
+
+		/*---------------- AKHIR EMPAT - INDEX ----------------*/
+		/*------------------ EMPAT - PRODUCTS -----------------*/
+
+		#img-products-empat
+		{
+			cursor: pointer; 	/* YANG MEMBUAT CURSOR POINTER */
+		}
+
+		#img-products-empat:hover img
+		{
+			filter: brightness(60%);
+		}
+		
+		#img-products-empat :not(img)
+		{
+			margin: 0;
+			position: absolute;
+			top: 45%;
+			/*z-index: 1;*/
+			color: #fff;
+			text-align: center;
+			width: 100%;
+			opacity: 0;
+			transition: 1s;
+		}
+
+		#img-products-empat:hover :not(img)
+		{
+			transition: .5s;
+			opacity: 1;
+		}
+
+		/*--------------- AKHIR EMPAT - PRODUCTS ---------------*/
+	/*------------------------ AKHIR EMPAT ---------------------*/
+
+
+section.index-products .btn
+{
+	margin: 50px 0;
+	padding: .5% 2%;
+	border-radius: 0;
+	font-family: Tw Cen MT;
+	/*font-size: 100%;*/
+	font-weight: bold;
+	background-color: #000;
+}
+
+section.index-products a:hover
+{
+	background-color: #222;
+	/*color: #222;*/
+}
+
+/*------------------------ AKHIR SECTION PRODUCTS ----------------------------*/
+
+
+
+
+
+/*-------------------------- SECTION INSTAGRAM -------------------------------*/
+
+section.instagram
+{
+	background-color: #000;	
+	color: #fff;
+}
+
+section.instagram h5
+{
+	margin: 50px 50px;
+	font-size: 150%;
+	font-family: Tw Cen MT; 
+	color: #fff;
+	
+}
+section.instagram #baris-pertama
+{
+	margin: 0;
+}
+
+section.instagram #baris-kedua
+{
+	margin: 0;
+	padding: 0; 
+}
+
+	.owl-carousel 
+	{
+  		margin-bottom: 4%;
+	}
+
+	.owl-loaded
+	{
+		padding-left: 5%;
+		padding-right: 0;
+	}
+
+
+	.owl-item
+	{
+		background-color: green;
+	}
+
+	.owl-item .item
+	{	
+		border: 5px solid #dede;
+	}
+
+
+/*--------------------- AKHIR SECTION INSTAGRAM -------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------  SECTION FOOTER -------------------------------*/
+
+section.footer #top-footer
+{
+	font-family: Tw Cen MT;
+	background-color: #0F0F0F;
+	color: #eaeaea;
+	margin: 0;
+	padding-bottom: 0%;
+}
+
+section.footer #top-footer .col-sm-3
+{
+	padding-top: 4%;
+	padding-left: 7%;
+	padding-right: 0%;
+	/*border: 1px solid #fff;*/
+}
+
+section.footer #top-footer .col-sm-3 .nav-link
+{
+	/*padding: 10% 15%;*/
+	padding-left: 20%;
+	padding-bottom: 10%;
+	color: #eaeaea;
+	font-size: 120%;
+}
+	
+	/*-------------------------------- .COL-6 [BAGIAN KANAN] ------------------------------ */
+
+	
+	section.footer #top-footer .col-sm-6
+	{
+		/*padding: 2% 7%;*/
+		padding-top: 4%;
+		padding-left: 7%;
+		/*border: 1px solid #fff;*/
+	}
+		
+		/*-------------------------------------- ROW BAGIAN KANAN ATAS -----------------------------------------*/
+		
+		section.footer #top-footer .col-sm-6 .col-7
+		{
+			padding: 0;
+			margin: 0;
+		}
+
+		section.footer #top-footer .col-sm-6 .col-7 .nav-link
+		{
+			color: #eaeaea;
+			font-size: 120%;
+		}
+		
+		section.footer #top-footer .col-sm-6 .col-5
+		{
+			margin: 0;
+			padding: 0;
+		}
+
+		section.footer #top-footer .col-sm-6 .col-5 img
+		{
+			padding: 2% 0;
+			margin-right: 3%;
+			width: 40px;
+		}
+
+		/*-------------------------------------- ROW BAGIAN KANAN TENGAH -----------------------------------------*/
+
+		section.footer #top-footer .col-sm-6 p
+		{
+			padding-left: 2%; 
+			margin-top: 7%;
+			margin-bottom: 0;
+			/*color: red;*/
+		}
+
+		section.footer #top-footer .col-sm-6 #email input
+		{
+			/*background-color: #343a40;	*/
+			border: 0;
+			border-radius: 0;
+			background-color: transparent;
+			border-bottom: 2px solid #343a40;
+			/*border: 0px;*/
+		}
+
+		section.footer #top-footer .col-sm-6 #email input:focus
+		{
+			box-shadow: none;
+		}
+
+		section.footer #top-footer .col-sm-6 #button
+		{
+			padding: 0;
+			margin-bottom: 1%;
+		}
+
+		section.footer #top-footer .col-sm-6 #button .btn
+		{
+			border-radius: 0;
+			padding: 3.5% 17%;
+		}
+
+/* ----------------------------------------- AKHIR TOP FOOTER --------------------------------------------------------------*/
+
+section.footer #middle-footer
+{
+	margin: 0;
+	background-color: #0F0F0F;
+}
+
+section.footer #middle-footer .col-sm-12
+{
+	margin: 0;
+	padding: 0;
+}
+
+section.footer #middle-footer hr
+{
+	width: 80%;
+	background-color: #eaeaea;
+}
+
+/* --------------------------------------------------- BOTTOM FOOTER ---------------------------------------------------------*/
+section.footer #bottom-footer
+{
+	background-color: #0F0F0F;
+	margin: 0;
+
+	padding-bottom: 1%;
+}
+
+section.footer #bottom-footer /*.col-sm-6*/ #kiri
+{
+	/*border-top: 1px solid #eaeaea;*/
+	margin: 0;
+	padding-top: 1%;
+	padding-left: 11.6%;
+	color: #eaeaea;
+	font-family: Tw Cen MT;
+	font-size: 100%;
+
+}
+
+section.footer #bottom-footer /*.col-sm-6*/ #kanan
+{
+	/*border-top: 1px solid #eaeaea;*/
+	margin: 0;
+	padding-top: 1%;
+	padding-left: 18%;
+	color: #eaeaea;
+	font-family: Tw Cen MT;
+	font-size: 100%;
+
+}
