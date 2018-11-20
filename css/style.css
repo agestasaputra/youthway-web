@@ -864,7 +864,7 @@ section.footer #top-footer .col-sm-3 a
 	font-size: 120%;
 }
 
-section.footer #top-footer .col-sm-3 a
+section.footer #top-footer .col-sm-3 a:hover
 {
 	/*padding: 10% 15%;*/
 	padding-left: 20%;
