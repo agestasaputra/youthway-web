@@ -239,7 +239,7 @@ section.shipping h1
 
 
 
-/*---------------------- SECTION SHIPPING ----------------------*/
+/*---------------------- SECTION ABOUT ----------------------*/
 
 section.about #title-about
 {
@@ -271,7 +271,7 @@ section.about h1
 
 section.about h1#h1-icon
 {
-	/*margin-bottom: 5%;		*/
+	margin-bottom: 5%;		
 	font-family: Roboto;
 	font-weight: bolder;
 	font-style: italic;
@@ -305,7 +305,7 @@ section.about img
 		font-family: Tw Cen MT;
 	}	
 
-/*------------------ AKHIR SECTION SHIPPING --------------------*/
+/*------------------ AKHIR SECTION ABOUT --------------------*/
 
 
 
